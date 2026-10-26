@@ -344,3 +344,27 @@ The final decision will be recorded in `TEST_SUMMARY.md` based on actual test ev
 ---
 
 **QA Lead principle:** Release readiness is determined by verified requirements, defect impact, test evidence, and residual risk—not merely by the number of passing tests.
+
+## Sprint 5 Requirements Traceability
+
+Each Sprint 5 acceptance criterion will be mapped to one or more test cases and any related GitHub defect issues.
+
+| Module | Test Case IDs | Sprint 5 User Story / Acceptance Criteria | Execution Status |
+|---|---|---|---|
+| Registration | REG-001 to REG-058 | Mapping pending verification | Partially executed |
+| Login | LOG-001 to LOG-035 | Mapping pending verification | Partially executed |
+| Contact | CON-001 to CON-030 | Mapping pending verification | Partially executed |
+| Profile | PROF-001 to PROF-017 | Mapping pending verification | Partially executed |
+| Forgot Password | FP-001 to FP-010 | Mapping pending verification | Partially executed |
+| Hand Tools | HT-001 to HT-040 | Mapping pending verification | Not fully executed |
+| Power Tools | PT-001 to PT-060 | Mapping pending verification | Not fully executed |
+
+### Traceability Process
+
+1. Identify the exact Sprint 5 user story and acceptance criterion.
+2. Link each applicable test case ID to that criterion.
+3. Record the execution status and supporting evidence.
+4. Link confirmed defects to GitHub Issue numbers.
+5. Identify uncovered acceptance criteria and complete the mapping before final sign-off.
+
+**Note:** Story IDs and acceptance criteria remain pending verification. Tests outside Sprint 5 scope are supplementary regression coverage.
